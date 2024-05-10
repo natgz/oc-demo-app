@@ -3,10 +3,14 @@
     .table-hover tbody tr:hover td, .table-hover tbody tr:hover th  {
       background-color: #69cfa069;
     }
+    .table-section {
+      height: 500px;
+      margin: 20px;
+    }
   </style>
 </header>
-<section>
-  <h2>Ordenes de Compra</h2>
+<section class="table-section">
+  <h2 >Ordenes de Compra</h2>
   <div class="d-grid gap-2 d-md-flex justify-content-md-end">
     <button type="button" class="btn btn-outline-primary me-md-2" data-bs-toggle="modal" data-bs-target="#formOC">Crear Nueva Orden</button>
   </div>
@@ -20,17 +24,17 @@
         </div>
         <div class="modal-body form-oc">
           <form class="row g-3 needs-validation" novalidate>
-            <div class="col-md-4">
+            <div class="md-4">
               <label class="form-label">Proveedor</label>
               <input type="text" class="form-control" name="proveedorInput" required>
               <div class="invalid-feedback">Ingresa la informacion solicitada.</div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
               <label class="form-label">Nombre de Articulo</label>
               <input type="text" class="form-control" name="articuloInput" required>
               <div class="invalid-feedback">Ingresa la informacion solicitada.</div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
               <label class="form-label">Unidad</label>
               <input type="text" class="form-control" name="unidadInput" required>
               <div class="invalid-feedback">Ingresa la informacion solicitada.</div>
@@ -40,12 +44,12 @@
               <input type="text" class="form-control" name="cantidadInput" required>
               <div class="invalid-feedback">Ingresa la informacion solicitada.</div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6">
               <label class="form-label">Precio de Compra</label>
               <input type="text" class="form-control" name="precioInput" required>
               <div class="invalid-feedback">Ingresa la informacion solicitada.</div>
             </div>
-            <div class="col-md-3">
+            <div class="md-3">
               <label class="form-label">Correo de Contacto</label>
               <input type="text" class="form-control" name="correoInput" required>
               <div class="invalid-feedback">Ingresa la informacion solicitada.</div>
@@ -72,6 +76,7 @@
         <th scope="col">Unidad</th>
         <th scope="col">Cantidad de Compra</th>
         <th scope="col">Precio de Compra</th>
+        <th scope="col">Correo de Contacto</th>
         <th scope="col">Facturas</th>
       </tr>
     </thead>

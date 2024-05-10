@@ -45,6 +45,7 @@ function saveOC(localS, forms, event) {
   }).removeClass('was-validated');
 
   crearTabla();
+  emailNuevaOC();
 }
 
 function crearTabla(params) {
@@ -73,18 +74,20 @@ function crearTabla(params) {
           <input type="file" class="form-control visually-hidden" 
             id="customFile" accept="image/*" multiple 
             onchange="showFiles(this)"> 
-          <button class="btn btn-success" type="button" 
-            onclick="document.getElementById('customFile').click()"> 
+          <button class="btn btn-primary btn-files" type="button" 
+            onclick="document.getElementById('customFile').click()" disabled> 
             Choose Files 
           </button> 
         </div> 
       </td>
+      <td><button type="button" class="btn btn-outline-danger"><i class="bi bi-trash3"></i></button></td>
+      <td><button type="button" class="btn btn-outline-warning"><i class="bi bi-pencil"></i></button></td>
       </tr>`;
     });
     $('#table-id').html(html);
   }
 
-  function showFiles(input) { 
+function showFiles(input) { 
     const previewsContainer = 
         document.getElementById('imagePreviews'); 
           
@@ -109,11 +112,77 @@ function crearTabla(params) {
 } 
 
 
-  $(document).on("click", ".btn-aprobar", function() {
-    $(this).removeClass().addClass('btn btn-secondary btn-aprobar');
-    $(".btn-aprobar").html('Aprobado');
-    $(this).prop('disabled', true);
+$(document).on("click", ".btn-aprobar", function() {
+  $(this).removeClass().addClass('btn btn-secondary btn-aprobar');
+  $(".btn-aprobar").html('Aprobado');
+  $(this).prop('disabled', true);
+  $(this).closest('tr').find('.btn-files').prop('disabled', false);
+  emailProveedor();
+});
+
+// $(document).on("click", ".btn-files", function() {
+//   $(this).removeClass().addClass('btn btn-secondary btn-aprobar');
+//   $(".btn-aprobar").html('Aprobado');
+//   $(this).prop('disabled', true);
+//   emailProveedor();
+// });
+
+
+$(document).on("click", ".btn-outline-danger", function() {
+  let index = $(this).closest('tr').index();
+  storage.splice(index, 1);
+  localStorage.setItem('ordenCompra', JSON.stringify(storage));
+  crearTabla(); 
+});
+
+
+
+function emailNuevaOC() {
+  const data = {
+    "from":"natalia.gonzalezgrz@gmail.com",
+    "to": "natalia.gonzalezgrz@outlook.com",
+    "subject":"Nueva Orden de Compra Creada",
+    "html":"<h1>Aprobar nueva OC</h1><h3>Se ha creado una nueva orden de compra, favor de ingresar al sistema y realizar la aprobacion.</h3>"
+  };
+
+  $.ajax({
+    url: 'http://localhost:3000/send-email-agro',
+    type: 'POST',
+    data: JSON.stringify(data),
+    contentType: 'application/json; charset=utf-8',
+    dataType: 'json',
+    success: function(response) {
+      console.log(response);
+    },
+    error: function(error) {
+      console.log(error);
+    }
   });
+}
+
+function emailProveedor() {
+  const data = {
+    "from":"natalia.gonzalezgrz@gmail.com",
+    "to": "natalia.gonzalezgrz@outlook.com",
+    "subject":"Orden de Compra empresa agro",
+    "html":"<h1></h1><h2>Orden de compra a proveedor</h2><h3>Aqui iria el pdf con el formato de una orden de compra y una descripcion para el proveedor</h3>"
+  };
+
+  $.ajax({
+    url: 'http://localhost:3000/send-email-agro',
+    type: 'POST',
+    data: JSON.stringify(data),
+    contentType: 'application/json; charset=utf-8',
+    dataType: 'json',
+    success: function(response) {
+      console.log(response);
+    },
+    error: function(error) {
+      console.log(error);
+    }
+  });
+}
+
 
   
-  // <td><div class="input-group custom-file-button"><label class="input-group-text" for="inputGroupFile"><i class="bi bi-paperclip"></i></label><input type="file" class="form-control" id="inputGroupFile" /></div></td>
+// <td><div class="input-group custom-file-button"><label class="input-group-text" for="inputGroupFile"><i class="bi bi-paperclip"></i></label><input type="file" class="form-control" id="inputGroupFile" /></div></td>
