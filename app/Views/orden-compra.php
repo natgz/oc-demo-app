@@ -19,86 +19,63 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body form-oc">
-          <div class="mb-3">
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">proveedor</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+              <label class="form-label">Proveedor</label>
+              <input type="text" class="form-control" name="proveedorInput" required>
+              <div class="invalid-feedback">Ingresa la informacion solicitada.</div>
             </div>
-            <label for="exampleFormControlInput1" class="form-label">nombre de articulo</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">unidad</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">cantidad de compra</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">precio de compra</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">correo de contacto</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-          <button type="button" class="btn btn-success" id="oc-guardar-btn">Guardar</button>
+            <div class="col-md-4">
+              <label class="form-label">Nombre de Articulo</label>
+              <input type="text" class="form-control" name="articuloInput" required>
+              <div class="invalid-feedback">Ingresa la informacion solicitada.</div>
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">Unidad</label>
+              <input type="text" class="form-control" name="unidadInput" required>
+              <div class="invalid-feedback">Ingresa la informacion solicitada.</div>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Cantidad de Compra</label>
+              <input type="text" class="form-control" name="cantidadInput" required>
+              <div class="invalid-feedback">Ingresa la informacion solicitada.</div>
+            </div>
+            <div class="col-md-3">
+              <label class="form-label">Precio de Compra</label>
+              <input type="text" class="form-control" name="precioInput" required>
+              <div class="invalid-feedback">Ingresa la informacion solicitada.</div>
+            </div>
+            <div class="col-md-3">
+              <label class="form-label">Correo de Contacto</label>
+              <input type="text" class="form-control" name="correoInput" required>
+              <div class="invalid-feedback">Ingresa la informacion solicitada.</div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary oc-cancelar-btn" id="oc-cancelar-btn" data-bs-dismiss="modal">Cancelar</button>
+              <button type="submit" class="btn btn-success" id="oc-guardar-btn">Guardar</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
   </div>
 
-  <table class="table table-striped table-hover">
+  
+
+  <table class="table table-striped table-hover" >
     <thead>
       <tr>
         <th scope="col">No. OC</th>
-        <th scope="col">nombre de articulo</th>
-        <th scope="col">estatus</th>
-        <th scope="col">proveedor</th>
-        <th scope="col">unidad</th>
-        <th scope="col">cantidad de compra</th>
-        <th scope="col">precio de compra</th>
-        <th scope="col">suma total</th>
-        <th scope="col">facturas</th>
+        <th scope="col">Proveedor</th>
+        <th scope="col">Nombre de Articulo</th>
+        <th scope="col">Estatus</th>
+        <th scope="col">Unidad</th>
+        <th scope="col">Cantidad de Compra</th>
+        <th scope="col">Precio de Compra</th>
+        <th scope="col">Facturas</th>
       </tr>
     </thead>
-    <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-        <td>@mdo</td>
-        <td>@mdo</td>
-        <td>@mdo</td>
-        <td>@mdo</td>
-        <td>@mdo</td>
-      </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>Jacob</td>
-        <td>Thornton</td>
-        <td>@fat</td>
-        <td>@mdo</td>
-        <td>@mdo</td>
-        <td>@mdo</td>
-        <td>@mdo</td>
-        <td>@mdo</td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td colspan="2">Larry the Bird</td>
-        <td>@twitter</td>
-        <td>@mdo</td>
-        <td>@mdo</td>
-        <td>@mdo</td>
-        <td>@mdo</td>
-        <td>@mdo</td>
-      </tr>
+    <tbody id="table-id">
     </tbody>
   </table>
 </section

@@ -1054,3 +1054,288 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
  8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\natal\\Desktop\\oc-demo-app\\public\\index.php')
+CRITICAL - 2024-05-09 21:49:09 --> ErrorException: Undefined array key "correoInput"
+[Method: GET, Route: orden-compra]
+in APPPATH\Views\orden-compra.php on line 64.
+ 1 APPPATH\Views\orden-compra.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correoInput"', 'C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('orden-compra', [], true)
+ 5 APPPATH\Controllers\OrdenCompra.php(11): view('orden-compra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrdenCompra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\natal\\Desktop\\oc-demo-app\\public\\index.php')
+CRITICAL - 2024-05-09 21:49:21 --> ErrorException: Undefined array key "correoInput"
+[Method: GET, Route: orden-compra]
+in APPPATH\Views\orden-compra.php on line 64.
+ 1 APPPATH\Views\orden-compra.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correoInput"', 'C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('orden-compra', [], true)
+ 5 APPPATH\Controllers\OrdenCompra.php(11): view('orden-compra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrdenCompra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\natal\\Desktop\\oc-demo-app\\public\\index.php')
+CRITICAL - 2024-05-09 21:49:23 --> ErrorException: Undefined array key "correoInput"
+[Method: GET, Route: orden-compra]
+in APPPATH\Views\orden-compra.php on line 64.
+ 1 APPPATH\Views\orden-compra.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correoInput"', 'C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('orden-compra', [], true)
+ 5 APPPATH\Controllers\OrdenCompra.php(11): view('orden-compra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrdenCompra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\natal\\Desktop\\oc-demo-app\\public\\index.php')
+CRITICAL - 2024-05-09 21:49:35 --> ErrorException: Undefined array key "correoInput"
+[Method: GET, Route: orden-compra]
+in APPPATH\Views\orden-compra.php on line 64.
+ 1 APPPATH\Views\orden-compra.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correoInput"', 'C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('orden-compra', [], true)
+ 5 APPPATH\Controllers\OrdenCompra.php(11): view('orden-compra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrdenCompra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\natal\\Desktop\\oc-demo-app\\public\\index.php')
+CRITICAL - 2024-05-09 21:49:38 --> ErrorException: Undefined array key "correoInput"
+[Method: GET, Route: orden-compra]
+in APPPATH\Views\orden-compra.php on line 64.
+ 1 APPPATH\Views\orden-compra.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correoInput"', 'C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('orden-compra', [], true)
+ 5 APPPATH\Controllers\OrdenCompra.php(11): view('orden-compra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrdenCompra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\natal\\Desktop\\oc-demo-app\\public\\index.php')
+CRITICAL - 2024-05-09 21:49:39 --> ErrorException: Undefined array key "correoInput"
+[Method: GET, Route: orden-compra]
+in APPPATH\Views\orden-compra.php on line 64.
+ 1 APPPATH\Views\orden-compra.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correoInput"', 'C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('orden-compra', [], true)
+ 5 APPPATH\Controllers\OrdenCompra.php(11): view('orden-compra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrdenCompra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\natal\\Desktop\\oc-demo-app\\public\\index.php')
+CRITICAL - 2024-05-09 21:49:40 --> ErrorException: Undefined array key "correoInput"
+[Method: GET, Route: orden-compra]
+in APPPATH\Views\orden-compra.php on line 64.
+ 1 APPPATH\Views\orden-compra.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correoInput"', 'C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('orden-compra', [], true)
+ 5 APPPATH\Controllers\OrdenCompra.php(11): view('orden-compra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrdenCompra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\natal\\Desktop\\oc-demo-app\\public\\index.php')
+CRITICAL - 2024-05-09 21:49:51 --> ErrorException: Undefined array key "correoInput"
+[Method: GET, Route: orden-compra]
+in APPPATH\Views\orden-compra.php on line 64.
+ 1 APPPATH\Views\orden-compra.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correoInput"', 'C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('orden-compra', [], true)
+ 5 APPPATH\Controllers\OrdenCompra.php(11): view('orden-compra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrdenCompra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\natal\\Desktop\\oc-demo-app\\public\\index.php')
+CRITICAL - 2024-05-09 21:49:53 --> ErrorException: Undefined array key "correoInput"
+[Method: GET, Route: orden-compra]
+in APPPATH\Views\orden-compra.php on line 64.
+ 1 APPPATH\Views\orden-compra.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correoInput"', 'C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('orden-compra', [], true)
+ 5 APPPATH\Controllers\OrdenCompra.php(11): view('orden-compra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrdenCompra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\natal\\Desktop\\oc-demo-app\\public\\index.php')
+CRITICAL - 2024-05-09 21:49:54 --> ErrorException: Undefined array key "correoInput"
+[Method: GET, Route: orden-compra]
+in APPPATH\Views\orden-compra.php on line 64.
+ 1 APPPATH\Views\orden-compra.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correoInput"', 'C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('orden-compra', [], true)
+ 5 APPPATH\Controllers\OrdenCompra.php(11): view('orden-compra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrdenCompra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\natal\\Desktop\\oc-demo-app\\public\\index.php')
+CRITICAL - 2024-05-09 21:49:55 --> ErrorException: Undefined array key "correoInput"
+[Method: GET, Route: orden-compra]
+in APPPATH\Views\orden-compra.php on line 64.
+ 1 APPPATH\Views\orden-compra.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correoInput"', 'C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('orden-compra', [], true)
+ 5 APPPATH\Controllers\OrdenCompra.php(11): view('orden-compra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrdenCompra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\natal\\Desktop\\oc-demo-app\\public\\index.php')
+CRITICAL - 2024-05-09 21:49:56 --> ErrorException: Undefined array key "correoInput"
+[Method: GET, Route: orden-compra]
+in APPPATH\Views\orden-compra.php on line 64.
+ 1 APPPATH\Views\orden-compra.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correoInput"', 'C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('orden-compra', [], true)
+ 5 APPPATH\Controllers\OrdenCompra.php(11): view('orden-compra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrdenCompra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\natal\\Desktop\\oc-demo-app\\public\\index.php')
+CRITICAL - 2024-05-09 21:50:06 --> ErrorException: Undefined array key "correoInput"
+[Method: GET, Route: orden-compra]
+in APPPATH\Views\orden-compra.php on line 64.
+ 1 APPPATH\Views\orden-compra.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correoInput"', 'C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('orden-compra', [], true)
+ 5 APPPATH\Controllers\OrdenCompra.php(11): view('orden-compra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrdenCompra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\natal\\Desktop\\oc-demo-app\\public\\index.php')
+CRITICAL - 2024-05-09 21:51:18 --> ErrorException: Undefined array key "correoInput"
+[Method: GET, Route: orden-compra]
+in APPPATH\Views\orden-compra.php on line 64.
+ 1 APPPATH\Views\orden-compra.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correoInput"', 'C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('orden-compra', [], true)
+ 5 APPPATH\Controllers\OrdenCompra.php(11): view('orden-compra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrdenCompra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\natal\\Desktop\\oc-demo-app\\public\\index.php')
+CRITICAL - 2024-05-09 21:51:19 --> ErrorException: Undefined array key "correoInput"
+[Method: GET, Route: orden-compra]
+in APPPATH\Views\orden-compra.php on line 64.
+ 1 APPPATH\Views\orden-compra.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correoInput"', 'C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('orden-compra', [], true)
+ 5 APPPATH\Controllers\OrdenCompra.php(11): view('orden-compra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrdenCompra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\natal\\Desktop\\oc-demo-app\\public\\index.php')
+CRITICAL - 2024-05-09 21:51:19 --> ErrorException: Undefined array key "correoInput"
+[Method: GET, Route: orden-compra]
+in APPPATH\Views\orden-compra.php on line 64.
+ 1 APPPATH\Views\orden-compra.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correoInput"', 'C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('orden-compra', [], true)
+ 5 APPPATH\Controllers\OrdenCompra.php(11): view('orden-compra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrdenCompra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\natal\\Desktop\\oc-demo-app\\public\\index.php')
+CRITICAL - 2024-05-09 21:51:37 --> ErrorException: Undefined array key "correoInput"
+[Method: GET, Route: orden-compra]
+in APPPATH\Views\orden-compra.php on line 64.
+ 1 APPPATH\Views\orden-compra.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correoInput"', 'C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('orden-compra', [], true)
+ 5 APPPATH\Controllers\OrdenCompra.php(11): view('orden-compra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrdenCompra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\natal\\Desktop\\oc-demo-app\\public\\index.php')
+CRITICAL - 2024-05-09 21:51:54 --> ErrorException: Undefined array key "correoInput"
+[Method: GET, Route: orden-compra]
+in APPPATH\Views\orden-compra.php on line 64.
+ 1 APPPATH\Views\orden-compra.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correoInput"', 'C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('orden-compra', [], true)
+ 5 APPPATH\Controllers\OrdenCompra.php(11): view('orden-compra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrdenCompra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\natal\\Desktop\\oc-demo-app\\public\\index.php')
+CRITICAL - 2024-05-09 21:52:22 --> ErrorException: Undefined array key "correoInput"
+[Method: GET, Route: orden-compra]
+in APPPATH\Views\orden-compra.php on line 64.
+ 1 APPPATH\Views\orden-compra.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correoInput"', 'C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\natal\\Desktop\\oc-demo-app\\app\\Views\\orden-compra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('orden-compra', [], true)
+ 5 APPPATH\Controllers\OrdenCompra.php(11): view('orden-compra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrdenCompra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\natal\\Desktop\\oc-demo-app\\public\\index.php')

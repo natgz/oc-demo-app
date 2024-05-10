@@ -1,3 +1,5 @@
 *.env
 
 app/Views/aaa.php
+
+writable/
