@@ -3,12 +3,12 @@
 namespace App\Controllers;
 use CodeIgniter\Controller;
 
-class Home extends BaseController
+class Recolecta extends BaseController
 {
     public function index(): string
     {   
         return view('templates/header')
-        . view('welcome_message')
+        . view('recolecta')
         . view('templates/footer');
     }
 }

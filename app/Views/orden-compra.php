@@ -7,6 +7,21 @@
       height: 500px;
       margin: 20px;
     }
+    input[type=file]::file-selector-button {
+      margin-right: 20px;
+      border: none;
+      background: #084cdf;
+      padding: 2px 7px;
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+      transition: background .2s ease-in-out;
+      width: 50px;
+    }
+
+input[type=file]::file-selector-button:hover {
+  background: #0d45a5;
+}
   </style>
 </header>
 <section class="table-section">
@@ -19,7 +34,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5">Crear Nueva Orden de Compra</h1>
+          <h1 class="modal-title fs-5">Crear Nueva Orden <br> de Compra</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body form-oc">
@@ -71,16 +86,17 @@
       <tr>
         <th scope="col">No. OC</th>
         <th scope="col">Proveedor</th>
-        <th scope="col">Nombre de Articulo</th>
+        <th scope="col">Nombre <br> de Articulo</th>
         <th scope="col">Estatus</th>
         <th scope="col">Unidad</th>
-        <th scope="col">Cantidad de Compra</th>
-        <th scope="col">Precio de Compra</th>
-        <th scope="col">Correo de Contacto</th>
+        <th scope="col">Cantidad <br>de Compra</th>
+        <th scope="col">Precio <br>de Compra</th>
+        <th scope="col">Correo <br>de Contacto</th>
         <th scope="col">Facturas</th>
       </tr>
     </thead>
     <tbody id="table-id">
     </tbody>
   </table>
+  <script src="js/orden-compra.js"></script>
 </section

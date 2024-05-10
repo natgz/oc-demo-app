@@ -69,14 +69,14 @@ function crearTabla(params) {
       <td>
         <div class="input-group mb-3"> 
           <label class="input-group-text" for="customFile"> 
-            <i class="bi bi-file-earmark-image"></i> 
+            <i class="bi bi-file-earmark"></i>
           </label> 
           <input type="file" class="form-control visually-hidden" 
-            id="customFile" accept="image/*" multiple 
-            onchange="showFiles(this)"> 
+            id="customFile" accept="file/*" multiple 
+            onchange="showFiles(this)" disabled> 
           <button class="btn btn-primary btn-files" type="button" 
             onclick="document.getElementById('customFile').click()" disabled> 
-            Choose Files 
+            adjuntar
           </button> 
         </div> 
       </td>
@@ -88,27 +88,27 @@ function crearTabla(params) {
   }
 
 function showFiles(input) { 
-    const previewsContainer = 
-        document.getElementById('imagePreviews'); 
-          
-    previewsContainer.innerHTML = ''; 
-    const files = input.files; 
-    for (let i = 0; i < files.length; i++) { 
-        const file = files[i]; 
-        const reader = new FileReader(); 
-        reader.onload = function (e) { 
-            const preview = document.createElement('div'); 
-            preview.classList.add('col-md-4', 'mb-3'); 
-            preview.innerHTML = ` 
-    <img src="${e.target.result}" alt="Preview" class="img-fluid rounded"> 
-    <div class="text-center mt-2"> 
-      <span class="badge bg-secondary">${file.name}</span> 
-    </div> 
-  `; 
-            previewsContainer.appendChild(preview); 
-        }; 
-        reader.readAsDataURL(file); 
-    } 
+  const previewsContainer = 
+    document.getElementById('imagePreviews'); 
+
+  previewsContainer.innerHTML = ''; 
+  const files = input.files; 
+  for (let i = 0; i < files.length; i++) { 
+    const file = files[i]; 
+    const reader = new FileReader(); 
+    reader.onload = function (e) { 
+      const preview = document.createElement('div'); 
+      preview.classList.add('col-md-4', 'mb-3'); 
+      preview.innerHTML = ` 
+      <img src="${e.target.result}" alt="Preview" class="img-fluid rounded"> 
+      <div class="text-center mt-2"> 
+        <span class="badge bg-secondary">${file.name}</span> 
+      </div> 
+    `; 
+      previewsContainer.appendChild(preview); 
+    }; 
+      reader.readAsDataURL(file); 
+  } 
 } 
 
 
@@ -118,15 +118,8 @@ $(document).on("click", ".btn-aprobar", function() {
   $(this).prop('disabled', true);
   $(this).closest('tr').find('.btn-files').prop('disabled', false);
   emailProveedor();
+  enviarRecolecta();
 });
-
-// $(document).on("click", ".btn-files", function() {
-//   $(this).removeClass().addClass('btn btn-secondary btn-aprobar');
-//   $(".btn-aprobar").html('Aprobado');
-//   $(this).prop('disabled', true);
-//   emailProveedor();
-// });
-
 
 $(document).on("click", ".btn-outline-danger", function() {
   let index = $(this).closest('tr').index();
@@ -134,8 +127,6 @@ $(document).on("click", ".btn-outline-danger", function() {
   localStorage.setItem('ordenCompra', JSON.stringify(storage));
   crearTabla(); 
 });
-
-
 
 function emailNuevaOC() {
   const data = {
@@ -183,6 +174,9 @@ function emailProveedor() {
   });
 }
 
+function enviarRecolecta(params) {
+  // funcion para enviar info de orden a vista recolecta
+}
 
   
 // <td><div class="input-group custom-file-button"><label class="input-group-text" for="inputGroupFile"><i class="bi bi-paperclip"></i></label><input type="file" class="form-control" id="inputGroupFile" /></div></td>

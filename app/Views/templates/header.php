@@ -15,13 +15,45 @@
 <header>
 <nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand">
-      <img src="/agro.png" width="100" height="50"/>
-    </a>
+    <!-- <button type="button" class="btn btn-outline-secondary"></button> -->
+    <button class="btn btn-outline-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar">
+      <i class="bi bi-layout-text-sidebar"></i>
+    </button>
+    <div class="navbar-brand justify-content-end">
+      <img src="/agro.png" width="100" height="50" />
+    </div>
     <form class="d-flex" role="search">
       <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
       <button class="btn btn-outline-success" type="submit">Buscar</button>
     </form>
+    <style>
+      ul {
+        list-style: none;
+      }
+      li:hover {
+        background-color:#c6720c29;
+      }
+    </style>
   </div>
+
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Vistas</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+      <ul>
+        <li><a href="/" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <br>
+        <li><a href="/orden-compra" class="nav-link px-2 text-body-secondary">Ordenes de Compra</a></li>
+        <br>
+        <li><a href="/recolecta" class="nav-link px-2 text-body-secondary">Entrega/Recolecta</a></li>
+        <br>
+        <li><a href="/pagos" class="nav-link px-2 text-body-secondary">Pagos</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
 </nav>
 </header>
